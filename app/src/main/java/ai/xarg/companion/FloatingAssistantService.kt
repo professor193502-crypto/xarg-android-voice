@@ -1,0 +1,24 @@
+package ai.xarg.companion
+
+import android.app.Service
+import android.content.Intent
+import android.graphics.PixelFormat
+import android.os.Build
+import android.os.IBinder
+import android.speech.RecognizerIntent
+import android.speech.SpeechRecognizer
+import android.speech.RecognitionListener
+import android.speech.tts.TextToSpeech
+import android.view.Gravity
+import android.view.WindowManager
+import android.view.View
+import android.view.MotionEvent
+import android.view.LayoutInflater
+import android.widget.Button
+import android.widget.EditText
+import android.widget.LinearLayout
+import android.widget.TextView
+import android.widget.Toast
+import android.graphics.Color
+import android.provider.Settings
+import android.content.Context
