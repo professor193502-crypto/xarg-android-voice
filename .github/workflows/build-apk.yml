@@ -1,4 +1,4 @@
-name: Build XARG Android APK
+name: XARG APK Build.
 
 on:
   workflow_dispatch:
